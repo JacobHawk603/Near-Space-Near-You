@@ -7,6 +7,6 @@ Welcome to the repository. Here you will find files, web pages, and maybe few co
 
 Here is the link to our web Page, which is actually where the course will be deployed 
 
-http://nearspace-nearyou.azurewebsites.net
+https://nearspacenearyou.azurewebsites.net
 
 For more Info please consult the wiki
