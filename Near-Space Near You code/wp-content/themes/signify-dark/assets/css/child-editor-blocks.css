@@ -1,0 +1,34 @@
+/*
+Theme Name: Signify Dark
+Description: Used to style Gutenberg Blocks in the editor.
+*/
+
+.editor-post-title__block .editor-post-title__input {
+    color: #fff;
+}
+
+/* Link styles */
+
+.edit-post-visual-editor a,
+.editor-block-list__block a,
+.wp-block-freeform.block-library-rich-text__tinymce a {
+    color: #999999;
+}
+
+.editor-styles-wrapper .wp-block-pullquote.is-style-solid-color blockquote {
+    background-color: #222222;
+}
+
+.wp-block-button .wp-block-button__link {
+    background-color: #db4f3d;
+    color: #ffffff;
+    border: 1px solid #db4f3d;
+}
+
+.wp-block-button .wp-block-button__link:hover,
+.wp-block-button .wp-block-button__link:focus,
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus {
+    background-color: #fff;
+    color: #000;
+}

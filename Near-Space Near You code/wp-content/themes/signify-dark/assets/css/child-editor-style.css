@@ -1,0 +1,365 @@
+/*
+Theme Name: Signify Dark
+Description: Used to style the TinyMCE editor for dark scheme.
+*/
+
+/**
+ * Table of Contents
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Padding/Margin
+ * 5.0 - Forms
+ * 6.0 - Navigation
+ *   6.1 - Links
+ * 7.0 - Alignments
+ * 8.0 - Posts and pages
+ * 9.0 - Media
+ * 10.0 - Captions
+ * 11.0 - Galleries
+ * 12.0 - Audio Section
+ * 13.0 - Media Queries
+ *    13.1 - >= 1024px
+ *    13.2 - >= 1200px
+ *    13.3 - >= 1440px
+ * 14.0 - RTL
+ * 15.0 - Colors
+ */
+
+
+.more-link,
+.button,
+.wp-block-button__link {
+    background-color: #db4f3d;
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.is-style-outline .wp-block-button__link,
+.is-style-outline .more-link,
+.is-style-outline .button {
+    border: 1px dashed #db4f3d;
+    color: #999;
+}
+
+.is-style-fill.wp-block-button .wp-block-button__link,
+.is-style-fill.wp-block-button .more-link,
+.is-style-fill.wp-block-button .button {
+    background-color: #db4f3d;
+    color: #fff;
+}
+
+.is-style-fill.wp-block-button .wp-block-button__link:hover,
+.is-style-fill.wp-block-button .wp-block-button__link:focus,
+.is-style-fill.wp-block-button .more-link:hover,
+.is-style-fill.wp-block-button .more-link:focus,
+.is-style-fill.wp-block-button .button:hover,
+.is-style-fill.wp-block-button .button:focus,
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus {
+    background-color: #fff;
+    border-color: #e6e6e6;
+    color: #000;
+}
+
+.is-style-outline .wp-block-button__link:hover,
+.is-style-outline .wp-block-button__link:focus {
+    color: #db4f3d;
+}
+
+/* Body Background Color */
+body {
+    background-color: #000000;
+}
+
+/* Secondary Background Color */
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+ins,
+pre,
+select,
+body .wp-playlist {
+    background-color: #222222;
+}
+
+.wp-block-table.is-style-stripes table tbody tr:nth-child(2n+1) {
+    background-color: #222222;
+}
+
+/* Tertiary Background Color */
+body .wp-playlist-item:hover,
+body .wp-playlist-item:focus,
+.mejs-container,
+.wp-audio-shortcode.mejs-container .mejs-controls,
+.wp-playlist {
+    background-color: #363636;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float-corner {
+    border-color: #363636;
+}
+
+/* Main Text Color */
+body,
+input,
+select,
+textarea,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+blockquote,
+.wp-playlist-current-item .wp-playlist-caption,
+.mejs-container .mejs-controls .mejs-time,
+.editor-styles-wrapper .mce-content-body a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption):hover,
+.editor-styles-wrapper .mce-content-body a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption):focus,
+.editor-styles-wrapper .mce-content-body a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption):hover,
+.editor-styles-wrapper .mce-content-body a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption):focus,
+a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption):hover,
+a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption):focus,
+textarea,
+.wp-playlist-light .wp-playlist {
+    color: #999999;
+}
+
+/* Headline Text Color */
+h1, h2, h3, h4, h5, h6,
+.page-links > .page-links-title {
+    color: #ffffff;
+}
+
+/* Link Color */
+a,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="datetime-local"]:focus,
+input[type="week"]:focus,
+input[type="month"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+body .wp-playlist-item:hover,
+body .wp-playlist-item:focus,
+body .wp-playlist-item:hover .wp-playlist-item-artist,
+body .wp-playlist-item:focus .wp-playlist-item-artist,
+body .wp-playlist-item:hover .wp-playlist-caption,
+body .wp-playlist-item:focus .wp-playlist-caption {
+    color: #ffffff;
+}
+
+/* Link Hover Color */
+a:focus,
+a:hover,
+.mejs-container button:hover,
+.mejs-container button:focus {
+    color: #db4f3d;
+}
+
+/* Secondary Link Color */
+body .wp-playlist,
+ins,
+body .wp-playlist .wp-playlist-caption{
+    color: #999999;
+}
+
+/* Border Color */
+select,
+fieldset,
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="month"],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="number"],
+textarea,
+table,
+.mce-item-table,
+caption,
+.mce-item-table caption,
+th,
+.mce-item-table th,
+td,
+tr:first-child td,
+.mce-item-table tr:first-child td,
+.mce-item-table td,
+.wp-block-table.is-style-stripes td,
+.wp-block-table.is-style-stripes th {
+    border-color: #2f2f2f;
+}
+
+tr:first-child td {
+    border-bottom: 1px solid #2f2f2f;
+}
+
+hr {
+    background-color: #ebebeb;
+}
+
+/* Button Text Color */
+mark,
+.page-links a,
+.button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    color: #ffffff;
+}
+
+/* Button Hover Text Color */
+.page-links a:hover,
+.page-links a:focus,
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    color: #000000;
+}
+
+/* Button Background Color */
+.page-links a,
+.button,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus {
+    background-color: #db4f3d;
+}
+
+/* Button Hover Background Color */
+.page-links a:hover,
+.page-links a:focus,
+.button:hover,
+.button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #ffffff;
+}
+
+/* Playlist Dark */
+body .wp-playlist.wp-playlist-dark,
+.mejs-container .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-total {
+    background-color: #ffffff;
+}
+
+.wp-playlist-dark .mejs-container,
+.wp-playlist-dark .wp-playlist-current-item,
+.wp-playlist-dark .mejs-container .mejs-controls,
+body .wp-playlist-dark .wp-playlist-item:hover,
+body .wp-playlist-dark .wp-playlist-item:focus {
+    background-color: #222;
+}
+
+body .wp-playlist.wp-playlist-dark .wp-playlist-playing,
+body .wp-playlist.wp-playlist-dark .wp-playlist-playing .wp-playlist-caption,
+body .wp-playlist-dark .wp-playlist-item:hover .wp-playlist-caption,
+body .wp-playlist-dark .wp-playlist-item:focus .wp-playlist-caption,
+body .wp-playlist-dark .wp-playlist-item:hover .wp-playlist-item-artist,
+body .wp-playlist-dark .wp-playlist-item:focus .wp-playlist-item-artist,
+body .wp-playlist-dark .wp-playlist-item:hover,
+body .wp-playlist-dark .wp-playlist-item:focus {
+    color: #fff;
+}
+
+.wp-playlist-dark .mejs-container .mejs-controls .mejs-time {
+    color: #fff;
+}
+
+body .wp-playlist-dark .wp-playlist-current-item .wp-playlist-item-meta,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing,
+.wp-playlist-item-meta.wp-playlist-item-title,
+.mejs-duration,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption {
+    color: #959595;
+}
+
+body .wp-playlist {
+    background-color: #fff;
+}
+
+body .wp-playlist-caption .wp-playlist-item-title,
+body .wp-playlist-caption .wp-playlist-item-album {
+    display: inline;
+}
+
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.mejs-container .mejs-controls .mejs-time-rail .mejs-time-float {
+    background-color: #db4f3d;
+    opacity: 0.7;
+}
+
+body .mejs-time,
+.signify-mejs-container.mejs-container .mejs-controls .mejs-time,
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button,
+.mejs-container .mejs-controls .mejs-volume-button button,
+body .wp-playlist .wp-playlist-playing,
+body .wp-playlist .wp-playlist-playing .wp-playlist-caption {
+    color: #ffffff;
+}
+
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:hover,
+.mejs-container .mejs-controls .mejs-playpause-button.mejs-button button:focus,
+.editor-styles-wrapper .mce-content-body a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption),
+.mce-container-body .mce-content-body a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption),
+a:not(.more-link):not(.button):not(button):not(.wp-playlist-caption),
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption:hover,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption:focus,
+.wp-playlist-tracks .wp-playlist-item:hover,
+.wp-playlist-tracks .wp-playlist-item:focus,
+.wp-playlist-tracks .wp-playlist-item.wp-playlist-playing .wp-playlist-caption,
+.wp-playlist-playing .wp-playlist-item-length {
+    color: #db4f3d;
+}
