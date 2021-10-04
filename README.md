@@ -5,7 +5,7 @@
 
 Welcome to the repository. Here you will find files, web pages, and maybe few code developed by us in order to solve the problem named "Near-Space Near-You"
 
-Here is the link to our web Page, which is actually where the express course for built a HAB will be deployed 
+Here is the link to our web Page, which is actually where the course will be deployed 
 
 http://nearspace-nearyou.azurewebsites.net
 
