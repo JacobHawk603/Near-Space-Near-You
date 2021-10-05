@@ -9,4 +9,10 @@ Here is the link to our web Page, which is actually where the course will be dep
 
 https://nearspacenearyou.azurewebsites.net
 
+Servicios Azure Implementados
+
+Como parte de la implementación se procedió a crear un grupo de recursos llamado PaginaWe  --- imagen
+
+En este grupo de recursos, utilizamos un AppService, donde utilizamos servicios de terceros (WordPress)
+
 For more Info please consult the wiki
