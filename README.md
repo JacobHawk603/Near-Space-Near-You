@@ -11,7 +11,7 @@ https://nearspacenearyou.azurewebsites.net
 
 Servicios Azure Implementados
 
-Como parte de la implementación se procedió a crear un grupo de recursos llamado PaginaWe 
+Como parte de la implementación se procedió a crear un grupo de recursos llamado PaginaWeb 
 
 ![image](https://user-images.githubusercontent.com/62320033/135961595-10bebc49-97ea-4247-8e1e-b88dc56531bf.png)
 
