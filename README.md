@@ -4,6 +4,7 @@
 ![Hab](https://user-images.githubusercontent.com/62320033/135781299-c9b4b966-f426-4363-91bf-e51f54cd7d6b.jpg)
 
 Welcome to the repository. Here you will find files, web pages, and maybe few code developed by us in order to solve the problem named "Near-Space Near-You"
+Para abordar nuestra problemática desarollamos una página web donde  te explicamos de forma sencilla como puedes construir tu propio globo de gran altitud, desde los materiales así como una serie de pasos que debes seguir para alcanzar el  éxito en tu aventura.  Así mismo, te damos una guía de planeación, para antes, durante y después del lanzamiento. 
 
 Here is the link to our web Page, which is actually where the course will be deployed 
 
