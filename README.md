@@ -13,14 +13,14 @@ Servicios Azure Implementados
 
 Como parte de la implementación se procedió a crear un grupo de recursos llamado PaginaWeb 
 
-![image](https://user-images.githubusercontent.com/62320033/135961595-10bebc49-97ea-4247-8e1e-b88dc56531bf.png)
+![image](https://user-images.githubusercontent.com/62320033/135961918-73d5a25e-564a-4100-8755-35c0da9703a5.png)
 
 
 En este grupo de recursos, utilizamos un AppService, donde utilizamos servicios de terceros (WordPress)
 
-![image](https://user-images.githubusercontent.com/62320033/135961655-f7cef7ed-27fe-4782-821d-9f95e42d3df1.png)
+![image](https://user-images.githubusercontent.com/62320033/135962009-50992699-40aa-447e-b844-5aa9f968ea6c.png)
 
-![image](https://user-images.githubusercontent.com/62320033/135961799-3180f592-8fce-450b-bbed-4587328a39a8.png)
+![image](https://user-images.githubusercontent.com/62320033/135962061-e16abb3f-da5f-445b-a0de-6dfec1660667.png)
 
 
 
