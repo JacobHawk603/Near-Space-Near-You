@@ -15,4 +15,4 @@ Como parte de la implementación se procedió a crear un grupo de recursos llama
 
 En este grupo de recursos, utilizamos un AppService, donde utilizamos servicios de terceros (WordPress)
 
-For more Info please consult the wiki
+For more Info please consult the wiki 
