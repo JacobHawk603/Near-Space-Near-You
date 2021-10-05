@@ -11,8 +11,14 @@ https://nearspacenearyou.azurewebsites.net
 
 Servicios Azure Implementados
 
-Como parte de la implementación se procedió a crear un grupo de recursos llamado PaginaWe  --- imagen
+Como parte de la implementación se procedió a crear un grupo de recursos llamado PaginaWe 
+
+![image](https://user-images.githubusercontent.com/62320033/135961595-10bebc49-97ea-4247-8e1e-b88dc56531bf.png)
+
 
 En este grupo de recursos, utilizamos un AppService, donde utilizamos servicios de terceros (WordPress)
+
+![image](https://user-images.githubusercontent.com/62320033/135961655-f7cef7ed-27fe-4782-821d-9f95e42d3df1.png)
+
 
 For more Info please consult the wiki 
